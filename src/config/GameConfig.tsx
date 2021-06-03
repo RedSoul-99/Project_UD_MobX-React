@@ -41,14 +41,6 @@ const config: GameConfig = {
 
     renderLandingPageTitle: () =>
       <>
-        <div style={{
-          width: '100%', backgroundColor: 'lightyellow', padding: 5, marginBottom: 10,
-          boxShadow: '2px 2px 8px 0px rgba(0,0,0,0.75)'
-        }}>
-          <h3>built with <a href="https://github.com/scottschafer/multiplayer-ts-mobx-react">multiplayer-ts-mobx-react</a></h3>
-          <p><i>A platform for quickly developing multiplayer games in the cloud.</i></p>
-        </div>
-
         <h1>Superghost!</h1>
         <p>A game of spelling and betrayal. Also known as "Lexicant". </p>
         <div style={{ textAlign: 'left' }}>
